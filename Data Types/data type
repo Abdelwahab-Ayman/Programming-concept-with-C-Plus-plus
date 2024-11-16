@@ -2,3 +2,7 @@ data type is a system for defining various properities about the data stored in 
 these properities such as -types of data 
                            -range of data
                            -bytes occupied
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
