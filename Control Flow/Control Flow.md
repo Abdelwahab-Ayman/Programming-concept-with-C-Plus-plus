@@ -11,13 +11,15 @@
 * [ ] Each of the four control flow diagram variations below, show graphically what sequential execution means. Multiple sequential statements are often shown as a single block of statements (as shown in two of the figures). 
 * [ ] For example, values are assigned to a and b before they are used to calculate the sum a+b. The following example is a sequence of commands that computes the average of three values.
 
+![](https://pages.cs.wisc.edu/~cs310-1/modules/Programming/Sequential%20and%20Iterative%20Execution/Sequential%20Execution/seq_flow.gif)
+1. Input the first value and save it as sum.
+2. Input the second value and save it as nextValue.
+3. Add nextValue to sum.
+4. Input the third value and save it as nextValue.
+5. Add nextValue to sum.
+6. Divide sum by three and save the result as avg.
+7. Display the average to the user.
 
+##### The order that the values are input and saved matter doesn't matter, but we can not calculate the average until all three values have been entered and added to together.
 
-```mermaid
-flowchart TD
-    A[a = input(....);] -->|the order| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-```
+##### The next step is to translate the sequential algorithm to code.
