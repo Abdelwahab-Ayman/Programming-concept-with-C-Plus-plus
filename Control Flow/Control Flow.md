@@ -23,7 +23,8 @@
 ##### The order that the values are input and saved matter doesn't matter, but we can not calculate the average until all three values have been entered and added to together.
 
 ##### The next step is to translate the sequential algorithm to code.
-#### Selection Statements:
+#### ##Control Statements : Selection Statements 
+
  • Selection statements are used to choose among alternative courses of action.
  
 1. IF Statment
@@ -38,3 +39,26 @@
 > The pseudocode statement–
 > If student’s marks is greater than or equal to 60  Then Print “Passed"
 ![](https://github.com/Abdelwahab-Ayman/Programming-concept-with-C-Plus-plus/blob/main/IMGs/java-if-statement-flowchart-768x510.png?raw=true)
+
+#### ##Control Statements : Repetition statements 
+
+* Some times we need to repeat a specific course of actions either a specified number of times or until a particular condition is being satisfied.
+ 
+*  For example :
+
+– To calculate the Average grade for 10 students
+<br>
+– To calculate the bonus for 10 employees or
+<br>
+– To sum the input numbers from the user as long as he/she enters positive numbers.
+<br>
+
+* There are three methods by way of which we can repeat a part of a program. They are:
+
+ – (a) Using a while statement
+ <br>
+ – (b) Using a do-while statement
+ <br>
+ – (C) Using a for statement 
+ <br>
+ – (d) Using Nested for statement
