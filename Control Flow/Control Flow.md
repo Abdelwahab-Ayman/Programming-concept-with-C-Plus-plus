@@ -23,3 +23,18 @@
 ##### The order that the values are input and saved matter doesn't matter, but we can not calculate the average until all three values have been entered and added to together.
 
 ##### The next step is to translate the sequential algorithm to code.
+#### Selection Statements:
+ • Selection statements are used to choose among alternative courses of action.
+ 
+1. IF Statment
+2. IF-ELSE Statment
+3. IF-ELSE IF Statment
+4. Nested IF
+5. Combining More Than One Condition
+6. SWITCH Statment
+
+ For example, suppose the passing mark on an exam is 60.
+ 
+> The pseudocode statement–
+> If student’s marks is greater than or equal to 60  Then Print “Passed"
+![](https://github.com/Abdelwahab-Ayman/Programming-concept-with-C-Plus-plus/blob/main/IMGs/java-if-statement-flowchart-768x510.png?raw=true)
