@@ -1,8 +1,8 @@
 | Operator Name                  | Alternative Token | Standard Token |
 |--------------------------------|-------------------|----------------|
 | Logical AND                    | `and`             | `&&`           |
-| Bitwise OR                     | `bitor`           | `|I`            |
-| Logical OR                     | `or`              | `||II`           |
+| Bitwise OR                     | `bitor`           | `I`            |
+| Logical OR                     | `or`              | `II`           |
 | Bitwise XOR                    | `xor`             | `^`            |
 | Bitwise NOT                    | `compl`           | `~`            |
 | Bitwise AND                    | `bitand`          | `&`            |
