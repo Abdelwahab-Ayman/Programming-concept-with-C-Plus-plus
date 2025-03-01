@@ -49,3 +49,13 @@
 | Logical Negation               | `!a`            |
 | Logical AND                    | `a && b`        |
 | Logical OR                     | `a || b`        |
+#### Member and Pointer Operators
+| Operator Name                  | Syntax          |
+|--------------------------------|-----------------|
+| Array Subscript                | `a[b]`          |
+| Indirection                    | `*a`            |
+| Address of                     | `&a`            |
+| Member Selection               | `a.b`           |
+| Member Selection (Pointer)     | `a->b`          |
+| Member Selection (Pointer to Member) | `a.*b`      |
+| Member Selection (Pointer to Member via Pointer) | `a->*b` |
