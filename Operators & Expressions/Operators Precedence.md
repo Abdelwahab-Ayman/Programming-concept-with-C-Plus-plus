@@ -44,3 +44,14 @@
 |            | `<=` (Less Than or Equal)       | `a <= b`            |                    |
 |            | `>` (Greater Than)             | `a > b`             |                    |
 |            | `>=` (Greater Than or Equal)    | `a >= b`            |                    |
+
+
+| Precedence | Operator Name                  | Syntax              | Associativity      |
+|------------|--------------------------------|---------------------|--------------------|
+| 10         | `==` (Equality)                | `a == b`            | Left to Right      |
+|            | `!=` (Inequality)              | `a != b`            |                    |
+| 11         | `&` (Bitwise AND)              | `a & b`             | Left to Right      |
+| 12         | `^` (Bitwise XOR)              | `a ^ b`             | Left to Right      |
+| 13         | `|` (Bitwise OR)               | `a | b`             | Left to Right      |
+| 14         | `&&` (Logical AND)             | `a && b`            | Left to Right      |
+| 15         | `||` (Logical OR)              | `a || b`            | Left to Right      |
