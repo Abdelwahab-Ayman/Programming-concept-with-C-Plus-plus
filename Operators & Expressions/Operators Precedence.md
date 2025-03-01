@@ -55,3 +55,21 @@
 | 13         | `|` (Bitwise OR)               | `a | b`             | Left to Right      |
 | 14         | `&&` (Logical AND)             | `a && b`            | Left to Right      |
 | 15         | `||` (Logical OR)              | `a || b`            | Left to Right      |
+
+| Precedence | Operator Name                  | Syntax              | Associativity      |
+|------------|--------------------------------|---------------------|--------------------|
+| 16         | `? :` (Ternary Conditional)    | `a ? b : c`         | Right to Left      |
+|            | `throw` (Throw)                | `throw a`           |                    |
+|            | `co_yield` (Yield)             | `co_yield a`        |                    |
+|            | `=` (Assignment)               | `a = b`             |                    |
+|            | `*=` (Multiplication Assignment) | `a *= b`         |                    |
+|            | `/=` (Division Assignment)     | `a /= b`            |                    |
+|            | `%=` (Modulus Assignment)      | `a %= b`            |                    |
+|            | `+=` (Addition Assignment)     | `a += b`            |                    |
+|            | `-=` (Subtraction Assignment)  | `a -= b`            |                    |
+|            | `<<=` (Left Shift Assignment)  | `a <<= b`           |                    |
+|            | `>>=` (Right Shift Assignment) | `a >>= b`           |                    |
+|            | `&=` (Bitwise AND Assignment)  | `a &= b`            |                    |
+|            | `|=` (Bitwise OR Assignment)   | `a |= b`            |                    |
+|            | `^=` (Bitwise XOR Assignment)  | `a ^= b`            |                    |
+| 17         | `,` (Comma)                   | `a, b`              | Left to Right      |
