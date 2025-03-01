@@ -11,3 +11,6 @@
 | XOR Assignment                 | `xor_eq`          | `^=`           |
 | Logical NOT                    | `not`             | `!`            |
 | NOT Equal                      | `not_eq`          | `!=`           |
+
+■ alternative tokens above probably best avoided as they lead to more
+verbose code
